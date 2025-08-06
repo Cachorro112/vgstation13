@@ -494,6 +494,14 @@ var/list/tag_suits_list = list()
 	starting_materials = list(MAT_CARDBOARD = 11250)
 	w_type=RECYK_MISC
 
+/obj/item/clothing/suit/tech_priest
+	name = "Tech Priest suit"
+	desc = "There is no truth in flesh, only betrayal. There is no strength in flesh, only weakness."
+	icon_state = "techpriest"
+	item_state = "techpriest"
+	body_parts_covered = FULL_TORSO|LEGS|FEET|ARMS
+	species_fit = list(INSECT_SHAPED)
+
 /*
  * Misc
  */
@@ -1252,3 +1260,12 @@ var/list/tag_suits_list = list()
 	inhand_states = list("left_hand" = 'icons/mob/in-hand/left/clothing.dmi', "right_hand" = 'icons/mob/in-hand/right/clothing.dmi')
 	body_parts_covered = FULL_TORSO|LEGS|FEET|ARMS|HANDS|HIDETAIL
 	clothing_flags = ONESIZEFITSALL
+
+// Military Shit i guess
+
+/obj/item/clothing/suit/marine
+	name = "marine jacket"
+	desc = "A rugged green service over-jacket. Part of the Marine Corps service uniform."
+	icon_state = "marine"
+	item_state = "marine"
+	body_parts_covered = FULL_TORSO
