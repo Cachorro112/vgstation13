@@ -462,6 +462,33 @@
 /obj/item/ammo_storage/magazine/lawgiver/honkgiver/ultimate/process()
 	return 0
 
+/obj/item/ammo_storage/magazine/stanag30
+	name = "magazine STANAG 30 (5.56x45mm)"
+	icon_state = "stanag30"
+	origin_tech = Tc_COMBAT + "=1"
+	ammo_type = "/obj/item/ammo_casing/a556"
+	multiple_sprites = 1
+	sprite_modulo = 30
+	max_ammo = 30
+
+/obj/item/ammo_storage/magazine/p90
+	name = "magazine (FN 5.7×28mm)"
+	icon_state = "p90"
+	origin_tech = Tc_COMBAT + "=1"
+	ammo_type = "/obj/item/ammo_casing/a57"
+	multiple_sprites = 1
+	sprite_modulo = 50
+	max_ammo = 50 //BALA DE P90 É MUITO FORTE, ENTÃO ISSO É UM DESTRUIDOR // CUIDADO
+
+/obj/item/ammo_storage/magazine/akmag
+	name = "magazine AK (5.45x39mm)"
+	icon_state = "ak"
+	origin_tech = Tc_COMBAT + "=1"
+	ammo_type = "/obj/item/ammo_casing/a545"
+	multiple_sprites = 1
+	sprite_modulo = 30
+	max_ammo = 30
+
 /obj/item/ammo_storage/magazine/invisible
 	desc = "Reading how many shots you had left just got a lot more difficult."
 	ammo_type = "/obj/item/ammo_casing/invisible"
