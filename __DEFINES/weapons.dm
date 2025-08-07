@@ -13,6 +13,9 @@
 #define POINT762X55 "7.62x55"
 #define NAGANTREVOLVER "7.62x38R"
 #define BROWNING50 ".50BMG"
+#define POINT556X45 ".5.56x45"
+#define POINT57X28 ".5.7×28mm"
+#define POINT545X39 ".5.45x39mm"
 #define NTLR22 ".22LR"
 
 #define ROCKETGRENADE "rpg"

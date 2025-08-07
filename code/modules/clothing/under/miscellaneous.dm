@@ -1120,3 +1120,47 @@
 	_color = "sonicmansuit"
 	inhand_states = list("left_hand" = 'icons/mob/in-hand/left/items_lefthand.dmi', "right_hand" = 'icons/mob/in-hand/right/items_righthand.dmi')
 	clothing_flags = ONESIZEFITSALL
+
+// DESCULPA NAO PEDIR PARA NASCER COM RETARDO MENTAL E QI 74
+
+/obj/item/clothing/under/ran
+	name = "shikigami costume"
+	desc = "A costume that looks like a certain shikigami. where's my kitten?"
+	icon_state = "ran"
+	item_state = "ran"
+	_color = "ran"
+	body_parts_covered = FULL_TORSO|LEGS|ARMS
+
+/obj/item/clothing/under/shrine_maiden
+	name = "shrine maiden's outfit"
+	desc = "Makes you want to exterminate some troublesome youkai."
+	icon_state = "shrine_maiden"
+	item_state = "shrine_maiden"
+	_color = "shrine_maiden"
+	body_parts_covered = FULL_TORSO|LEGS|ARMS
+
+// Military shit i guess
+
+/obj/item/clothing/under/marine
+	name = "marine uniform"
+	desc = "A green, durable utility jumpsuit. Belonging to the Marines."
+	icon_state = "marine"
+	item_state = "marine"
+	_color = "marine"
+	armor = list(melee = 10, bullet = 5, laser = 0,energy = 0, bomb = 0, bio = 0, rad = 0)
+	clothing_flags = ONESIZEFITSALL
+	siemens_coefficient = 0.9
+
+/obj/item/clothing/under/marine/service
+	name = "marine service uniform"
+	desc = "A slimming brown service shirt and green pants. Belonging to the Marines."
+	icon_state = "marine_service"
+	item_state = "marine_service"
+	_color = "marine_service"
+
+/obj/item/clothing/under/marine/offcer
+	name = "marine officer uniform"
+	desc = "A slimming brown service shirt and green pants with beige streaks, for officers. Belonging to the Marines."
+	icon_state = "marine_officer"
+	item_state = "marine_officer"
+	_color = "marine_officer"

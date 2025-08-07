@@ -895,3 +895,44 @@ var/image/unusual_overlay = image('icons/mob/head.dmi', "unusual_overlay", pixel
 	species_fit = list(GREY_SHAPED,VOX_SHAPED)
 	inhand_states = list("left_hand" = 'icons/mob/in-hand/left/clothing.dmi', "right_hand" = 'icons/mob/in-hand/right/clothing.dmi')
 	heat_conductivity = SNOWGEAR_HEAT_CONDUCTIVITY
+
+/obj/item/clothing/head/ran
+	name = "shikigami hat"
+	desc = "A hat that looks like it keeps any fluffy ears contained super warm, has little charms over it."
+	icon_state = "ran"
+	icon_state = "ran"
+
+/obj/item/clothing/head/shrine_wig
+	name = "shrine maiden's wig"
+	desc = "Purify in style!"
+	body_parts_covered = HIDEHAIR
+	icon_state = "shrine_wig"
+	icon_state = "shrine_wig"
+
+/obj/item/clothing/head/marine
+	name = "marine cap"
+	desc = "A stern, green utility cover. Part of the Marines."
+	icon_state = "marine"
+	item_state = "marine"
+	body_parts_covered = HEAD
+
+// Military shit i guess
+
+/obj/item/clothing/head/marine
+	name = "marine cap"
+	desc = "A stern, green utility cover. Part of the Marines."
+	icon_state = "marine"
+	item_state = "marine"
+	body_parts_covered = HEAD
+
+/obj/item/clothing/head/marine/wheel
+	name = "marine wheel cover"
+	desc = "A rounded wheel cover for marines. Part of the Marines."
+	icon_state = "marinewheel"
+	item_state = "marinewheel"
+
+/obj/item/clothing/head/marine/marine_officer
+	name = "marine officer wheel cover"
+	desc = "A rounded wheel cover for officers. Part of the Marines."
+	icon_state = "marineofficer"
+	item_state = "marineofficer"
